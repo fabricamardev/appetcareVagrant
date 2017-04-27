@@ -24,14 +24,18 @@ git clone https://github.com/fabricamardev/appetcareVagrant.git
 
 cd appetcareVagrant
 
-3 - De dentro do diretorio appetcareDocker iniciar o container com o comando:
+3 - De dentro do diretorio appetcareDocker utilizar a VM com o comando:
 
-vagrant up
+Iniciar a VM: vagrant up
+
+Parar a VM: vagrant down
+
+Destruir a VM: vagrant destroy
+
 
 Feito isso os serviços podem ser acessados nas seguintes portas:
 
-    mysql na porta 3306;
-    laravel na porta 8080 (http://localhost);
+    Servidor Web na porta 8080 (http://localhost);
     PhpMyAdmin na porta 8080 diretorio phpmyadmin (http://localhost:8080/phpmyadmin) user: root e senha: vagrant
 
 ESTRUTURA DE PASTAS:
