@@ -31,13 +31,11 @@ vagrant up
 Feito isso os serviços podem ser acessados nas seguintes portas:
 
     mysql na porta 3306;
-    laravel na porta 80 (http://localhost);
-    PhpMyAdmin na porta 81 (http://localhost:81) user: root e senha: 123Mudar
+    laravel na porta 8080 (http://localhost);
+    PhpMyAdmin na porta 8080 diretorio phpmyadmin (http://localhost:8080/phpmyadmin) user: root e senha: vagrant
 
 ESTRUTURA DE PASTAS:
 
-    public : Arquivos do módulo web (copiar aqui os arquivos do projeto)
-    mysql : Arquivos de dados do Mysql (Não mexer manualmente!!!)
-    sessions : Arquivos do PhpMyAdmin (Não mexer manualmente!!!)
-
+    www : Arquivos do módulo web (copiar aqui os arquivos do projeto)
+    
 Reportar dúvidas e erros para fabricamardev@gmail.com
