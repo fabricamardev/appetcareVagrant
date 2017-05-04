@@ -28,14 +28,14 @@ cd appetcareVagrant
 
 Iniciar a VM: vagrant up
 
-Parar a VM: vagrant down
+Desligar a VM: vagrant halt
 
 Destruir a VM: vagrant destroy
 
 
 Feito isso os serviços podem ser acessados nas seguintes portas:
 
-    Servidor Web na porta 8080 (http://localhost);
+    Servidor Web na porta 8080 (http://localhost:8080);
     PhpMyAdmin na porta 8080 diretorio phpmyadmin (http://localhost:8080/phpmyadmin) user: root e senha: vagrant
 
 ESTRUTURA DE PASTAS:
